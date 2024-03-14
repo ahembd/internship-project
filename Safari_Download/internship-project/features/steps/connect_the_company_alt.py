@@ -6,8 +6,10 @@ from time import sleep
 
 @given("the user has logged into the main page")
 def log_into_reelly(context):
-    username = 'alhembd@gmail.com'
-    password = 'Thomasgoodwin1657*'
+    #username = 'alhembd@gmail.com'
+    #password = 'Thomasgoodwin1657*'
+    username = '<USERNAME>'
+    password = '<PASSWORD>'
     context.driver.get("https://soft.reelly.io/sign-up")
     # click sign-in link
     sign_in_link = context.driver.find_element(By.XPATH, '//*[@id="wf-form-Create-account"]/a[1]/div[2]')
