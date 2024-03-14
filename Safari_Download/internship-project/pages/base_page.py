@@ -13,7 +13,7 @@ class Page:
 
     def find_element(self, *locator):
         print('in base_page.find_element')
-        print('locator= ' + str(locator))
+        print('locator= ' + str(*locator))
         return self.driver.find_element(*locator)
 
     def find_elements(self, *locator):
