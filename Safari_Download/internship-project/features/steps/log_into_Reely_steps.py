@@ -20,8 +20,8 @@ def log_into_reelly(context):
     # continue button
     continue_button = context.driver.find_element(By.XPATH, '//*[@id="wf-form-Sign-up"]/a').click()
 
-    BALI_SELECTOR = context.driver.find_element(By.XPATH, ('//*[@id="w-node-a12e6235-4ea1-44ef-5a02-9f96ec022f3d-7f66de48"]/a/h2'))
-    BALI_SELECTOR.click()
+    # BALI_SELECTOR = context.driver.find_element(By.XPATH, ('//*[@id="w-node-a12e6235-4ea1-44ef-5a02-9f96ec022f3d-7f66de48"]/a/h2'))
+    # BALI_SELECTOR.click()
 
 
 

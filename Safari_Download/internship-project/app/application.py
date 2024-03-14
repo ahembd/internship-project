@@ -4,7 +4,8 @@ from pages.header import Header
 
 
 class Application:
-    def __init__(self, driver):
-        self.page = Page(driver)
-        self.header = Header(driver)
-        self.main_page = MainPage(driver)
+    def __init__(context, driver):
+        context.page = Page(driver)
+        context.header = Header(driver)
+        context.main_page = MainPage(driver)
+        context.driver = driver
